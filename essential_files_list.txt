@@ -1,0 +1,39 @@
+فایل‌های ضروری برای انتقال:
+
+📁 فایل‌های اصلی:
+- main.py
+- requirements.txt
+- .env.example (نام آن را به .env تغییر دهید)
+
+📁 پوشه bot/:
+- bot/__init__.py
+- bot/config.py
+- bot/handlers.py
+- bot/keyboards.py
+- bot/cart.py
+- bot/pricing.py
+- bot/order_server.py
+- bot/hesabfa_integration.py
+
+📁 پوشه data/:
+- data/__init__.py
+- data/customer_service.py
+- data/product_data.py
+
+📁 پوشه utils/:
+- utils/__init__.py
+- utils/logger.py
+- utils/persian_utils.py
+
+📁 پوشه‌های داده (اختیاری):
+- cart_data/
+- order_data/
+- payment_data/
+
+📁 فایل‌های راهنما:
+- vps_deployment_steps.md
+- quick_commands.txt
+- vps_setup.sh
+- backup_script.sh
+
+نکته: اگر پوشه‌های داده وجود ندارند، خودکار ایجاد می‌شوند.

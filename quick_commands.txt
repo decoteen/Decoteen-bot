@@ -1,0 +1,22 @@
+# دستورات سریع برای VPS
+
+## اتصال به سرور:
+ssh root@65.109.184.162
+
+## نصب سریع:
+apt update && apt upgrade -y && apt install python3.11 python3.11-pip python3.11-venv git screen nano -y
+
+## ایجاد پروژه:
+mkdir -p /root/decoteen-bot && cd /root/decoteen-bot && python3.11 -m venv venv && source venv/bin/activate && pip install python-telegram-bot==20.7 requests
+
+## بررسی وضعیت ربات:
+systemctl status decoteen-bot
+
+## مشاهده لاگ:
+journalctl -u decoteen-bot -f
+
+## ری‌استارت ربات:
+systemctl restart decoteen-bot
+
+## تست ربات:
+cd /root/decoteen-bot && source venv/bin/activate && python main.py

@@ -1,0 +1,53 @@
+{
+  "order_id": "00033",
+  "user_id": 296797246,
+  "customer": {
+    "customer_id": "000012",
+    "name": "آقای ایمان کوهگرد",
+    "city": "تبریز"
+  },
+  "cart_items": [
+    {
+      "product_id": "baby_2",
+      "product_name": "آلیسون",
+      "size": "75×160",
+      "quantity": 3,
+      "price": 4780000
+    },
+    {
+      "product_id": "teen_8",
+      "product_name": "گیم",
+      "size": "120×200",
+      "quantity": 10,
+      "price": 4780000
+    }
+  ],
+  "payment_info": {
+    "payment_method": "پرداخت چکی - 90day",
+    "amount": 11651250,
+    "type": "check"
+  },
+  "status": "processing",
+  "created_at": "2025-08-12T07:00:31.882284",
+  "updated_at": "2025-08-12T07:05:59.899704",
+  "status_history": [
+    {
+      "status": "confirmed",
+      "timestamp": "2025-08-12T07:00:37.884275",
+      "admin": "decoteen",
+      "previous_status": "pending"
+    },
+    {
+      "status": "hesabfa_error",
+      "timestamp": "2025-08-12T07:03:50.143163",
+      "admin": "سیستم",
+      "note": "خطا در ثبت پیش‌فاکتور حسابفا: زمان انتظار ارتباط با حسابفا به پایان رسید - لطفاً دسترسی شبکه را بررسی کنید"
+    },
+    {
+      "status": "processing",
+      "timestamp": "2025-08-12T07:05:59.899713",
+      "admin": "decoteen",
+      "previous_status": "confirmed"
+    }
+  ]
+}
